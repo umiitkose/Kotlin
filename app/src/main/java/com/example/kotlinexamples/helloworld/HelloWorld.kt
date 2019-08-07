@@ -1,8 +1,5 @@
 package com.example.kotlinexamples.helloworld
 
-class HelloWorld {
-    fun main(args:Array<String>){
-        print("Hello World")
-    }
-
+fun main(args: Array<String>){
+    println("HelloWorld")
 }
