@@ -11,5 +11,11 @@ fun main(args: Array<String>){
     var variableName1 = 33
     // variableName1= "333"  Error : Type mismatch.
 
+    var myDecimal = 0.1
+    var myNumber  = 1
+    var myString: String
+    myString = "www.umiitkose.com"
+    val myAnotherString:String
+    myAnotherString = "Blog yazmak güzeldir."
 
 }

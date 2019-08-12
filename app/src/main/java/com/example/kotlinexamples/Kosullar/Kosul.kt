@@ -50,6 +50,31 @@ fun main(args: Array<String>) {
         println("y 1 ile 10 arasında değildir.")
     }
 
+    //Örnek
+    var vize : Int = 0
+    var final : Int= 0
+    var ortalama : Float = 0.0f
+    print("Vize notunu giriniz :")
+    vize = readLine()!!.toInt()
+
+    print("Final notunu giriniz :")
+    final = readLine()!!.toInt()
+
+    // ortalama = vize %40 + final %60
+    ortalama = ((vize*0.40) + (final*0.60)).toFloat() // (float)
+    println("Ortalamanız = " + ortalama)
+
+    if(ortalama>=60) {
+        println("GEÇTİNİZ")
+    } else { println("KALDINIZ") }
+
+    if(ortalama>=90 && ortalama<=100) println("Notunuz AA")    // && ve,  || veya
+    else if(ortalama>=80 && ortalama<90) println("Notunuz BA")
+    else if(ortalama>=70 && ortalama<80) println("Notunuz BB")
+    else if(ortalama>=60 && ortalama<70) println("Notunuz CC")
+    else if(ortalama>=50 && ortalama<60) println("Notunuz DD")
+    else println("Notunuz FF")
+
 
 }
 
