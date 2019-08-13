@@ -10,6 +10,13 @@ fun main(args: Array<String>) {
 
     5.carp(7).carp(2).carp(3) //210 döner , carp fonksiyonumuz bir int değer döndüğü için direk .carp() diyerek tekrar çağırabiliriz.
 
+    println("Ümit KÖSE".reversed().plus("test"))
+
+    var list = arrayListOf<String>("1","2","3")
+    for(item in list) println(item)
+    list.swap(0,2)
+    for(item in list) println(item)
+
 }
 
 fun Int.carp(sayi: Int) : Int{
@@ -20,3 +27,8 @@ fun carp(sayi: Int) : Int{
     return 3*sayi
 }
 
+fun ArrayList<String>.swap(x: Int, y: Int){
+    val temp = this[x]
+    this[x] = this[y]
+    this[y] = temp
+}

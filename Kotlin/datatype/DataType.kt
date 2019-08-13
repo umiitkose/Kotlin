@@ -1,6 +1,8 @@
 package com.example.kotlinexamples.datatype
 
 fun main(args: Array<String>){
+
+
     val value="Merhaba"  // Val can not be reassigned
     // value = "Merhaba Dünya"  --> Error
 

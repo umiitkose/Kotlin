@@ -2,9 +2,11 @@ package com.example.kotlinexamples.ArrayExample
 
 fun main(args: Array<String>) {
 
+    // mutable : Sabit
     // val diziAdi = Array(diziUzunluğu){başlangıç değerleri};  --> Şeklinde dizi oluşturulur.
 
     val intArray = Array<Int>(10){0}
+    val intArray2 = arrayOf(1,2,3)
     val stringArray = Array<String>(10){""}
     val doubleArray = Array<Double>(10){1.0}
     val charArray = Array<Char>(10){'A'}
@@ -29,5 +31,8 @@ fun main(args: Array<String>) {
 
     //dizi Boyutu Öğrenmek için :
     println(arrayExample.size)
+
+    //dizi'yi yazdırma
+    for (item in intArray) println(item)
 
 }

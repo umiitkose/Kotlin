@@ -1,7 +1,11 @@
 package com.example.kotlinexamples.OOP.Fonksiyonlar
 
 fun main(args: Array<String>) {
-    // Kotlinde fonksiyon için fun keyword 'u kullanılır.
+    /* Unit --> Java 'daki void 'e denk geliyor.
+    *  Kotlinde fonksiyon için fun keyword 'u kullanılır.
+    *
+    * */
+
 
     println(helloWorld())
     println(merhaba("Ümit", "KÖSE"))

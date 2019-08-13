@@ -1,5 +1,6 @@
 package com.example.kotlinexamples
 
+public class Main {
 /*
 *
 Google I/O (Innovation in the Open/Açık Yenilik) 2017 toplantısında Android'in resmi dili seçilmiştir.
@@ -59,4 +60,9 @@ No Static Declaration − Kotlin does not have usual static handling modifier li
 
 * */
 
+fun main(args: Array<String>) {
 
+}
+
+
+}

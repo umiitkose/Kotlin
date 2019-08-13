@@ -1,6 +1,21 @@
 package com.example.kotlinexamples.Collectionlar
 
 fun main(args: Array<String>) {
+    /*
+    Collections
+    Immutable (Read Only)
+        1. Immutable List --> listOF
+        2. Immutable Map --> mapOf
+        3. Immutable Set --> setOf
+
+    Mutable (Read and Write)
+        1. Mutable List --> ArrayList, arrayListOf, mutableListOf
+        2. Mutable Map --> HashMap, hashMapOf, mutableMapOf
+        3. Mutable Set --> mutableSetOf, hashSetOf
+    * */
+
+
+
     //Bir array 'de uzunluk belirlemek zorundaydık. Uzunluluk belirtmek zorunda olmadığımız bir yapıda arrayList 'leri kullanabiliriz.
 
     val arrayList: ArrayList<String> = ArrayList<String>()
