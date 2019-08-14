@@ -1,5 +1,18 @@
 package com.example.kotlinexamples.Collectionlar
 
+/*
+Collections
+Immutable (Read Only)
+    1. Immutable List --> listOF
+    2. Immutable Map --> mapOf
+    3. Immutable Set --> setOf
+
+Mutable (Read and Write)
+    1. Mutable List --> ArrayList, arrayListOf, mutableListOf
+    2. Mutable Map --> HashMap, hashMapOf, mutableMapOf
+    3. Mutable Set --> mutableSetOf, hashSetOf
+* */
+
 /* Set sınıfı ile oluşturulan bir koleksiyonda tekrarlanan öğeler bulunmaz.
 Map, List ve Arrayler de aynı eleman programda defalarca kullanılabilir veya birden fazla bulunabilir.
 Fakat Set sınıfında böyle bir durum söz konusu değildir. Set sınıfının içindeki öğeler bir dizi biçiminde değil,
@@ -12,9 +25,8 @@ mutable : mutableSetOf() ile oluşturulan yapılarda ise üzerine ekleme, günce
 */
 
 fun main(args: Array<String>) {
-
+    //Immutable Example
     var my_Set1 = setOf(58,51,9,"halil","taha",19.97,null,false)
-
 
     var new_set = setOf<String>("halil","ibrahim","yusuf","emre")
 

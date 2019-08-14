@@ -14,7 +14,26 @@ fun main(args: Array<String>) {
         3. Mutable Set --> mutableSetOf, hashSetOf
     * */
 
+    //immutable Example
+    var list = listOf<String>("Test1","Test2","Test3")
+    //list[2]="test" --> Yapamazsın çünkü immutable. Veri eklenmez !!
+    for(item in list) println(item)
+    //for(item in 0..list.size -1) println(item)
 
+
+    //mutable Example
+    var liste = arrayListOf<String>("Test1","Test2","Test3")
+    var liste1 = mutableListOf<String>("Test1","Test2","Test3")
+    //var liste2 = ArrayList<String>("Test1","Test2","Test3") --> Hata verir. () içerisinde parametre tanımlatmaz.
+
+    //Eleman Değiştirme
+    liste[2]="test"
+    //Eleman Ekleme
+    liste.add("test4")
+    // İsme göre eleman silme
+    liste.remove("Test1")
+    //index'e göre eleman silme
+    liste.removeAt(1)
 
     //Bir array 'de uzunluk belirlemek zorundaydık. Uzunluluk belirtmek zorunda olmadığımız bir yapıda arrayList 'leri kullanabiliriz.
 
@@ -68,3 +87,4 @@ fun main(args: Array<String>) {
 
 
 }
+
