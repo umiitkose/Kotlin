@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef624bf0-624e-49c0-8f5b-8ba5938b0d91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Fonksiyonlar/InfixFonksiyon.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UtilsClass/RandomClassExample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nullSafetyExample/NullExample.kt" afterDir="false" />
+    <list default="true" id="ef624bf0-624e-49c0-8f5b-8ba5938b0d91" name="Default Changelist" comment="K">
+      <change afterPath="$PROJECT_DIR$/oop/abstraction/Abstraction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/kalitim/Kalitim2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/overrideandsuper/OverrideAndSuper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayExample/ArrayExp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayExample/ArrayExp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collectionlar/ArrayListExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Collectionlar/ArrayListExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Donguler/Dongu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Donguler/Dongu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Giris.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Giris.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Fonksiyonlar/ExtensionFonksiyon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Fonksiyonlar/ExtensionFonksiyon.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Fonksiyonlar/Fonksiyonlar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/Fonksiyonlar/Fonksiyonlar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datatype/DataType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/datatype/DataType.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nullSafetyExample/NullExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/nullSafetyExample/NullExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/kalitim/Kalitim.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oop/kalitim/Kalitim.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -43,12 +34,6 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
-    <option name="y" value="213" />
-    <option name="width" value="1657" />
-    <option name="height" value="910" />
-  </component>
   <component name="ProjectId" id="1PMeAYM1E7nzat6DV7woBMK9FO5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -59,6 +44,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oop/overrideandsuper" />
+      <recent name="$PROJECT_DIR$/OOP/kalitim" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -72,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.Kotlin">
+  <component name="RunManager" selected="Kotlin.com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt">
     <configuration name="Kotlin" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -86,66 +77,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlinexamples.Donguler.DonguKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.kotlinexamples.OOP.KalitimKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.Donguler.DonguKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.OOP.KalitimKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlinexamples.OOP.Fonksiyonlar.ExtensionFonksiyonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.kotlinexamples.OOP.Siniflar.GetterAndSetterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.OOP.Fonksiyonlar.ExtensionFonksiyonKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.OOP.Siniflar.GetterAndSetterKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlinexamples.OOP.Fonksiyonlar.FonksiyonlarKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.kotlinexamples.nullSafetyExample.NullExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.OOP.Fonksiyonlar.FonksiyonlarKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.nullSafetyExample.NullExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlinexamples.OOP.Fonksiyonlar.InfixFonksiyonKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.kotlinexamples.oop.kalitim.Kalitim2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.OOP.Fonksiyonlar.InfixFonksiyonKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.oop.kalitim.Kalitim2Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.kotlinexamples.UtilsClass.RandomClassExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.UtilsClass.RandomClassExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,20 +178,20 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Kotlin" />
-      <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.FonksiyonlarKt" />
       <item itemvalue="Kotlin script.Unnamed" />
-      <item itemvalue="Kotlin.com.example.kotlinexamples.Donguler.DonguKt" />
-      <item itemvalue="Kotlin.com.example.kotlinexamples.UtilsClass.RandomClassExampleKt" />
-      <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.ExtensionFonksiyonKt" />
-      <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.InfixFonksiyonKt" />
+      <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Siniflar.GetterAndSetterKt" />
+      <item itemvalue="Kotlin.com.example.kotlinexamples.nullSafetyExample.NullExampleKt" />
+      <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.KalitimKt" />
+      <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.Kalitim2Kt" />
+      <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.InfixFonksiyonKt" />
-        <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.ExtensionFonksiyonKt" />
-        <item itemvalue="Kotlin.com.example.kotlinexamples.UtilsClass.RandomClassExampleKt" />
-        <item itemvalue="Kotlin.com.example.kotlinexamples.Donguler.DonguKt" />
-        <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Fonksiyonlar.FonksiyonlarKt" />
+        <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt" />
+        <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.Kalitim2Kt" />
+        <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.KalitimKt" />
+        <item itemvalue="Kotlin.com.example.kotlinexamples.nullSafetyExample.NullExampleKt" />
+        <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Siniflar.GetterAndSetterKt" />
       </list>
     </recent_temporary>
   </component>

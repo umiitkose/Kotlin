@@ -1,11 +1,7 @@
 package com.example.kotlinexamples.nullSafetyExample
-
-class NullExample {
     fun main(args: Array<String>){
 
         //Herhangi bir değere sahip olmamak null demektir. Değişkeni null yapabilmek için sonuna ? konulur.
-
-
         var a:String?
         a = null
 
@@ -14,4 +10,3 @@ class NullExample {
 
         val c = b!!.length //!! ile boş değer olabilir, kontrol ene demek.
     }
-}
