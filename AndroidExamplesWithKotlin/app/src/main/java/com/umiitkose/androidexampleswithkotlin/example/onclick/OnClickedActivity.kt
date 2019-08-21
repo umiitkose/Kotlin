@@ -1,13 +1,11 @@
-package com.umiitkose.androidexampleswithkotlin.example
+package com.umiitkose.androidexampleswithkotlin.example.onclick
 
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.umiitkose.androidexampleswithkotlin.MainActivity
 import com.umiitkose.androidexampleswithkotlin.R
 import kotlinx.android.synthetic.main.ui_onclick_example.*
 

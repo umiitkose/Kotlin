@@ -1,4 +1,4 @@
-package com.umiitkose.androidexampleswithkotlin.example
+package com.umiitkose.androidexampleswithkotlin.example.listview
 
 import android.os.Bundle
 import android.os.PersistableBundle
