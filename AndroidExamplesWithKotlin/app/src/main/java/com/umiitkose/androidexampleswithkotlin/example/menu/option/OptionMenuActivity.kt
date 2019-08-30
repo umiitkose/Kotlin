@@ -9,6 +9,7 @@ import android.view.MenuItem
 import android.widget.Toast
 import com.umiitkose.androidexampleswithkotlin.R
 import com.umiitkose.androidexampleswithkotlin.example.menu.context.ContextMenuActivity
+import com.umiitkose.androidexampleswithkotlin.example.menu.popup.PopupMenuActivity
 
 class OptionMenuActivity : AppCompatActivity() {
 
@@ -38,6 +39,10 @@ class OptionMenuActivity : AppCompatActivity() {
             }
             R.id.action_context_menu ->{
                 startActivity(Intent(this,ContextMenuActivity::class.java))
+                true
+            }
+            R.id.action_popup_menu ->{
+                startActivity(Intent(this,PopupMenuActivity::class.java))
                 true
             }
             else ->  super.onOptionsItemSelected(item)

@@ -24,4 +24,9 @@
             app:showAsAction="ifRoom"
             />
 
+    <item android:id="@+id/action_popup_menu"
+            android:title="Popup Menu"
+            app:showAsAction="ifRoom"
+            />
+
 </menu>
