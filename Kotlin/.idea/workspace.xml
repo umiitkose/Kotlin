@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef624bf0-624e-49c0-8f5b-8ba5938b0d91" name="Default Changelist" comment="K">
-      <change afterPath="$PROJECT_DIR$/oop/abstraction/Abstraction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/kalitim/Kalitim2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/overrideandsuper/OverrideAndSuper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nullSafetyExample/NullExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/nullSafetyExample/NullExample.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/kalitim/Kalitim.kt" beforeDir="false" afterPath="$PROJECT_DIR$/oop/kalitim/Kalitim.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -178,12 +173,12 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.Kotlin" />
-      <item itemvalue="Kotlin script.Unnamed" />
       <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.Siniflar.GetterAndSetterKt" />
       <item itemvalue="Kotlin.com.example.kotlinexamples.nullSafetyExample.NullExampleKt" />
       <item itemvalue="Kotlin.com.example.kotlinexamples.OOP.KalitimKt" />
       <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.Kalitim2Kt" />
       <item itemvalue="Kotlin.com.example.kotlinexamples.oop.kalitim.OverrideAndSuperKt" />
+      <item itemvalue="Kotlin script.Unnamed" />
     </list>
     <recent_temporary>
       <list>

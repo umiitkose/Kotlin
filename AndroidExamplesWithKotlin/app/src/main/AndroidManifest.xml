@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.umiitkose.androidexampleswithkotlin">
+        package="com.umiitkose.androidexampleswithkotlin">
 
     <application
             android:allowBackup="true"
@@ -9,16 +9,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".example.intent.TwoActivity">
-        </activity>
-        <activity android:name=".example.intent.OneActivity">
-        </activity>
-        <activity android:name=".example.activity.lifecycle.LifecycleActivity">
+        <activity android:name=".example.menu.context.ContextMenuActivity"></activity>
+        <activity android:name=".example.menu.option.OptionMenuActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
