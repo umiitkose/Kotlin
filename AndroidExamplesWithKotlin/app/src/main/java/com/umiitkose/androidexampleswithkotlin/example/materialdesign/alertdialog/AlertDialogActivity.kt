@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.umiitkose.androidexampleswithkotlin.R
+import com.umiitkose.androidexampleswithkotlin.example.materialdesign.alertdialog.custom.CustomDialog
 import kotlinx.android.synthetic.main.activity_alert_dialog.*
 
 class AlertDialogActivity : AppCompatActivity() {
@@ -46,6 +47,15 @@ class AlertDialogActivity : AppCompatActivity() {
             builder.create().show()
 
         }
+
+        bt_customalert.setOnClickListener {
+
+          val customDialog: CustomDialog = CustomDialog()
+            customDialog.show(supportFragmentManager,"Custom Dialog")
+
+        }
+
+
 
     }
 }
