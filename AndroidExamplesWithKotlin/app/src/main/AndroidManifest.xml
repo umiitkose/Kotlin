@@ -9,12 +9,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".example.materialdesign.toolbar.ToolbarActivity"></activity>
-        <activity android:name=".example.menu.popup.PopupMenuActivity" />
-        <activity android:name=".example.menu.context.ContextMenuActivity" />
-        <activity android:name=".example.menu.option.OptionMenuActivity">
+        <activity android:name=".example.intent.TwoActivity">
+        </activity>
+        <activity android:name=".example.intent.OneActivity">
+        </activity>
+        <activity android:name=".example.activity.lifecycle.LifecycleActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
