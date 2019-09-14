@@ -9,10 +9,11 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".example.activity.lifecycle.LifecycleActivity"/>
-        <activity android:name=".example.intent.OneActivity"></activity>
-        <activity android:name=".example.sharedprefences.SharedPreferencesActivity"></activity>
-        <activity android:name=".example.intent.TwoActivity"></activity>
+        <activity android:name=".example.materialdesign.recyclerview.RecyclerView"></activity>
+        <activity android:name=".example.activity.lifecycle.LifecycleActivity" />
+        <activity android:name=".example.intent.OneActivity" />
+        <activity android:name=".example.sharedprefences.SharedPreferencesActivity" />
+        <activity android:name=".example.intent.TwoActivity" />
         <activity android:name=".example.menu.popup.PopupMenuActivity" />
         <activity android:name=".example.materialdesign.toolbar.ToolbarActivity" />
         <activity android:name=".example.menu.context.ContextMenuActivity" />
