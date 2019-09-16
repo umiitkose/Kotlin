@@ -27,6 +27,7 @@ class SharedPreferencesActivity : AppCompatActivity() {
         sharedPref = getSharedPreferences(PREFERENCE_FILE_KEY, Context.MODE_PRIVATE)
         prefs = getPreferences(Context.MODE_PRIVATE)
 
+<<<<<<< Updated upstream
         readValues()
 
         btn_spclick.setOnClickListener {
@@ -43,12 +44,15 @@ class SharedPreferencesActivity : AppCompatActivity() {
             putBoolean(CHB_KEY,chb_kontrol.isChecked)
             apply()
         }
+=======
+
+
+>>>>>>> Stashed changes
     }
 
     private fun saveEdtValue(){
         //Sharedpreferences yazma işlemi
-        val editor: SharedPreferences.Editor = sharedPref.edit()
-        editor.apply(){
+        val editor: SharedPreferences.Editor = sharedPref.edit().apply(){
             putString(EDT_KEY,et_sp.text.toString())
             apply()
         }
@@ -56,10 +60,15 @@ class SharedPreferencesActivity : AppCompatActivity() {
 
     private fun readValues(){
         val value = sharedPref.getString(EDT_KEY,"none")
+<<<<<<< Updated upstream
         textView.text = value
 
 
         val chbValue = prefs.getBoolean(CHB_KEY,false)
         chb_kontrol.isChecked = chbValue
+=======
+        tv_sp.text = value
+        
+>>>>>>> Stashed changes
     }
 }
