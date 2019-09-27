@@ -1,4 +1,5 @@
-package com.umiitkose.androidexampleswithkotlin.example.fragment
+package com.umiitkose.a  var result = "Selected Programming Language"
+            if (cb_android.isChecked) {ndroidexampleswithkotlin.example.fragment
 
 
 import android.os.Bundle
